@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!-- Goblin - Misty Mountain -->
+  <XenotypeDef>
+    <defName>LotROG_Xeno_GoblinMistyMountain</defName>
+    <label>Misty Mountain Goblin</label>
+    <description>With gray skin, they thrive in cramped and dark spaces where combat and travel happen over short distances. They suffer from a sensitivity to light, slow speed and poor eyesight at distance.</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Skin_LightGray</li>
+      <li>LotROG_Gene_Ears_MistyGoblin</li>
+      <li>DarkVision</li>
+      <li>Nearsighted</li>
+      <li>UVSensitivity_Intense</li>
+      <li>Aggression_Aggressive</li>
+      <li>LotROG_Gene_CaveDweller</li>
+      <li>LotROG_Gene_Wimp</li>
+      <li>LotROG_Gene_CreepyBreathing</li>
+      <li>LotROG_Gene_Bloodlust</li>
+    </genes>
+  </XenotypeDef>
+
+ <!-- Goblin - Moria  -->
+  <XenotypeDef>
+    <defName>LotROG_Xeno_GoblinMoria</defName>
+    <label>Moria Goblin</label>
+    <description>With gray skin, they thrive in cramped and dark spaces where combat and travel happen over short distances. They suffer from a sensitivity to light, slow speed and poor eyesight at distance.</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Skin_LightGray</li>
+      <li>LotROG_Gene_Ears_MoriaGoblin</li>
+      <li>DarkVision</li>
+      <li>Nearsighted</li>
+      <li>UVSensitivity_Intense</li>
+      <li>Aggression_Aggressive</li>
+      <li>LotROG_Gene_CaveDweller</li>
+      <li>LotROG_Gene_Wimp</li>
+      <li>LotROG_Gene_CreepyBreathing</li>
+      <li>LotROG_Gene_Bloodlust</li>
+    </genes>
+  </XenotypeDef>
+
+ <!-- Orc - Gundabad -->
+  <XenotypeDef>
+    <defName>LotROG_Xeno_OrcGundabad</defName>
+    <label>Gundabad Orc</label>
+    <description>Xenotype Description.</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Skin_LightGray</li>
+      <li>LotROG_Gene_Ears_GundabadOrc</li>
+      <li>DarkVision</li>
+      <li>UVSensitivity_Intense</li>
+      <li>Aggression_Aggressive</li>
+      <li>LotROG_Gene_CreepyBreathing</li>
+      <li>LotROG_Gene_Bloodlust</li>
+    </genes>
+  </XenotypeDef>
+
+ <!-- Orc - Mordor  -->
+  <XenotypeDef>
+    <defName>LotROG_Xeno_OrcMordor</defName>
+    <label>Mordor Orc</label>
+    <description>Xenotype Description.</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Skin_LightGray</li>
+      <li>LotROG_Gene_Ears_MordorOrc</li>
+      <li>DarkVision</li>
+      <li>UVSensitivity_Intense</li>
+      <li>Aggression_Aggressive</li>
+      <li>LotROG_Gene_CreepyBreathing</li>
+      <li>LotROG_Gene_Bloodlust</li>
+    </genes>
+  </XenotypeDef>
+
+ <!-- Uruk Hai  -->
+  <XenotypeDef>
+    <defName>LotROG_Xeno_Urukhai</defName>
+    <label>Uruk-hai</label>
+    <description>Xenotype Description.</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Skin_LightGray</li>
+      <li>LotROG_Gene_Ears_Urukhai</li>
+      <li>DarkVision</li>
+      <li>UVSensitivity_Intense</li>
+      <li>Aggression_Aggressive</li>
+      <li>LotROG_Gene_Robust</li>
+      <li>LotROG_Gene_Bloodlust</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>
