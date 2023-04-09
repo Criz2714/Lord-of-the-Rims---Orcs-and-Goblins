@@ -1,4 +1,4 @@
-# LordoftheRimsOrcsandGoblins
+# Lord of the Rims - Orcs and Goblins
 
 
 ![Image](https://i.imgur.com/buuPQel.png)
