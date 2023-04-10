@@ -22,8 +22,7 @@
       <max>900</max>
     </apparelMoney>
     <apparelTags>
-      <li>Tribal</li>
-      <li>LotROG_Goblinlike</li>
+      <li>LotROG_UrukArmor</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponMoney>
@@ -31,7 +30,7 @@
       <max>5000</max>
     </weaponMoney>
     <weaponTags>
-      <li>NeolithicMeleeBasic</li>
+      <li>LotROG_Uruk_Melee</li>
     </weaponTags>
     <techHediffsMoney>
       <min>5000</min>
@@ -60,11 +59,13 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
+
   <PawnKindDef ParentName="UrukHaiVillager">
     <defName>LotROG_UrukHai_Trader</defName>
     <label>urukhai trader</label>
     <trader>true</trader>
   </PawnKindDef>
+
   <PawnKindDef ParentName="UrukHaiVillager" Name="UrukHaiFighter">
     <defName>LotROG_UrukHai_Fighter</defName>
     <label>urukhai fighter</label>
@@ -75,7 +76,7 @@
       <max>900</max>
     </apparelMoney>
     <apparelTags>
-      <li>Tribal</li>
+      <li>LotROG_UrukArmor</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponMoney>
@@ -83,7 +84,7 @@
       <max>5000</max>
     </weaponMoney>
     <weaponTags Inherit="False">
-      <li>NeolithicMeleeBasic</li>
+      <li>LotROG_Uruk_Melee</li>
     </weaponTags>
     <invNutrition>2.55</invNutrition>
     <inventoryOptions>
@@ -108,21 +109,27 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
+
   <PawnKindDef ParentName="UrukHaiFighter" Name="UrukHaiRanged">
     <defName>LotROG_UrukHai_Ranged</defName>
     <label>urukhai archer</label>
     <combatPower>60</combatPower>
     <weaponTags Inherit="False">
-      <li>NeolithicRangedBasic</li>
+      <li>LotROG_Uruk_CrossBow</li>
     </weaponTags>
   </PawnKindDef>
+
   <PawnKindDef ParentName="UrukHaiFighter" Name="UrukHaiChief">
     <defName>LotROG_UrukHai_Chief</defName>
     <label>urukhai chief</label>
     <combatPower>60</combatPower>
     <factionLeader>true</factionLeader>
+    <apparelMoney>
+      <min>9000</min>
+      <max>9000</max>
+    </apparelMoney>
     <weaponTags Inherit="False">
-      <li>NeolithicRangedHeavy</li>
+      <li>LotROG_Uruk_Bow</li>
     </weaponTags>
   </PawnKindDef>
 </Defs>
