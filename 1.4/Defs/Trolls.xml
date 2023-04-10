@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
+  <!-- Trolls -->
   <ThingDef ParentName="BaseWeapon">
     <defName>LotR_TrollAxe</defName>
     <label>troll axe</label>
@@ -34,9 +36,6 @@
     </tools>
     <comps>
       <li>
-        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-      </li>
-      <li>
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
@@ -60,6 +59,7 @@
       <li>ITab_Art</li>
     </inspectorTabs>
   </ThingDef>
+
   <ThingDef ParentName="AnimalThingBase">
     <defName>LotR_BlueTroll</defName>
     <label>olag hai</label>
@@ -145,6 +145,7 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
   </ThingDef>
+
   <PawnKindDef>
     <defName>LotR_BlueTroll</defName>
     <label>olag hai</label>
@@ -192,6 +193,7 @@
       <li>Troll</li>
     </weaponTags>
   </PawnKindDef>
+
   <!-- Armoured Trolls -->
   <ThingDef ParentName="BaseWeapon">
     <defName>LotR_TrollMace</defName>
@@ -227,9 +229,6 @@
     </tools>
     <comps>
       <li>
-        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-      </li>
-      <li>
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
@@ -253,6 +252,7 @@
       <li>ITab_Art</li>
     </inspectorTabs>
   </ThingDef>
+
   <ThingDef ParentName="AnimalThingBase">
     <defName>LotR_ATroll</defName>
     <label>armoured troll</label>
@@ -339,6 +339,7 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
   </ThingDef>
+
   <PawnKindDef>
     <defName>LotR_ATroll</defName>
     <label>armoured troll</label>
@@ -386,4 +387,5 @@
       <li>ATroll</li>
     </weaponTags>
   </PawnKindDef>
+
 </Defs>

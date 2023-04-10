@@ -17,8 +17,8 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>GoblinAxe</li>
-      <li>GoblinMelee</li>
+      <li>LotROG_Goblin_Axe</li>
+      <li>LotROG_Goblin_Melee</li>
     </weaponTags>
     <costStuffCount>100</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
@@ -62,8 +62,8 @@
     <uiIconScale>1.1</uiIconScale>
     <techLevel>Neolithic</techLevel>
     <weaponTags>
-      <li>GoblinClub</li>
-      <li>GoblinMelee</li>
+      <li>LotROG_Goblin_Club</li>
+      <li>LotROG_Goblin_Melee</li>
     </weaponTags>
     <weaponClasses>
       <li>Neolithic</li>
@@ -118,8 +118,8 @@
     </graphicData>
     <uiIconScale>1.6</uiIconScale>
     <weaponTags>
-      <li>GoblinMachete</li>
-      <li>GoblinMelee</li>
+      <li>LotROG_Goblin_Machete</li>
+      <li>LotROG_Goblin_Melee</li>
     </weaponTags>
     <weaponClasses>
       <li>Neolithic</li>
@@ -171,8 +171,8 @@
     </graphicData>
     <techLevel>Neolithic</techLevel>
     <weaponTags>
-      <li>GoblinSpear</li>
-      <li>GoblinMelee</li>
+      <li>LotROG_Goblin_Spear</li>
+      <li>LotROG_Goblin_Melee</li>
     </weaponTags>
     <weaponClasses>
       <li>Neolithic</li>
@@ -232,8 +232,8 @@
     <costStuffCount>50</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <weaponTags>
-      <li>GundabadSword</li>
-      <li>GundabadMelee</li>
+      <li>LotROG_Goblin_Sword</li>
+      <li>LotROG_Goblin_Melee</li>
     </weaponTags>
     <statBases>
       <WorkToMake>12000</WorkToMake>
@@ -304,8 +304,8 @@
       <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
-      <li>GoblinBow</li>
-      <li>GoblinRanged</li>
+      <li>LotROG_Goblin_Bow</li>
+      <li>LotROG_Goblin_Ranged</li>
     </weaponTags>
     <weaponClasses>
       <li>Ranged</li>
@@ -361,8 +361,8 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>GundabadAxeKnife</li>
-      <li>GundabadMelee</li>
+      <li>LotROG_Gundabad_AxeKnife</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <costStuffCount>100</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
@@ -414,8 +414,8 @@
     </graphicData>
     <uiIconScale>1.6</uiIconScale>
     <weaponTags>
-      <li>GundabadKnife</li>
-      <li>GundabadMelee</li>
+      <li>LotROG_Gundabad_Knife</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <weaponClasses>
       <li>Neolithic</li>
@@ -468,8 +468,8 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>GundabadDao</li>
-      <li>GundabadMelee</li>
+      <li>LotROG_Gundabad_Dao</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <costStuffCount>100</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
@@ -532,8 +532,8 @@
     <costStuffCount>50</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <weaponTags>
-      <li>GundabadGladius</li>
-      <li>GundabadMelee</li>
+      <li>LotROG_Gundabad_Gladius</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <statBases>
       <WorkToMake>12000</WorkToMake>
@@ -587,11 +587,12 @@
     <graphicData>
       <texPath>Weapons/Gundabad/gundabad-halberd</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.5</drawSize>
     </graphicData>
     <techLevel>Neolithic</techLevel>
     <weaponTags>
-      <li>GundabadHalberd</li>
-      <li>GundabadMelee</li>
+      <li>LotROG_Gundabad_Halberd</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <weaponClasses>
       <li>Neolithic</li>
@@ -660,8 +661,8 @@
     <costStuffCount>50</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <weaponTags>
-      <li>GundabadKhopesh</li>
-      <li>GundabadMelee</li>
+      <li>LotROG_Gundabad_Khopesh</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <statBases>
       <WorkToMake>12000</WorkToMake>
@@ -716,14 +717,15 @@
     <graphicData>
       <texPath>Weapons/Gundabad/gundabad-sabre</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
     </graphicData>
     <uiIconScale>1.2</uiIconScale>
     <techLevel>Medieval</techLevel>
     <costStuffCount>50</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <weaponTags>
-      <li>GundabadSabre</li>
-      <li>GundabadMelee</li>
+      <li>LotROG_Gundabad_Sabre</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <statBases>
       <WorkToMake>12000</WorkToMake>
@@ -778,11 +780,12 @@
     <graphicData>
       <texPath>Weapons/Gundabad/gundabad-sword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>GundabadSword</li>
-      <li>GundabadMelee</li>
+      <li>LotROG_Gundabad_Sword</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <costStuffCount>100</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
@@ -838,11 +841,12 @@
     <graphicData>
       <texPath>Weapons/Gundabad/gundabad-talonpike</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.8</drawSize>
     </graphicData>
     <techLevel>Neolithic</techLevel>
     <weaponTags>
-      <li>GundabadSpear</li>
-      <li>GundabadMelee</li>
+      <li>LotROG_Gundabad_TalonPike</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <weaponClasses>
       <li>Neolithic</li>
@@ -912,8 +916,8 @@
       <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
-      <li>GundabadBow</li>
-      <li>GundabadRanged</li>
+      <li>LotROG_Gundabad_Bow</li>
+      <li>LotROG_Gundabad_Ranged</li>
     </weaponTags>
     <weaponClasses>
       <li>Ranged</li>
@@ -970,8 +974,8 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>MoriaSword</li>
-      <li>MoriaMelee</li>
+      <li>LotROG_Moria_Sword</li>
+      <li>LotROG_Moria_Melee</li>
     </weaponTags>
     <costStuffCount>100</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
@@ -1043,8 +1047,8 @@
       <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
-      <li>MoriaBow</li>
-      <li>MoriaRanged</li>
+      <li>LotROG_Moria_Bow</li>
+      <li>LotROG_Moria_Ranged</li>
     </weaponTags>
     <weaponClasses>
       <li>Ranged</li>
@@ -1092,17 +1096,18 @@
  <!-- Uruk-hai Berzerker Sword -->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotROG_Uruk_BerzerkerSword</defName>
-    <label>Uruk-hai machete</label>
+    <label>Uruk-hai Berzerker Sword</label>
     <description>Uruk-hai berzerker sword</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Weapons/Urukhai/urukhai-berzerkersword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.4</drawSize>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>UrukBerzerkerSword</li>
-      <li>UrukMelee</li>
+      <li>LotROG_Uruk_BerzerkerSword</li>
+      <li>LotROG_Uruk_Melee</li>
     </weaponTags>
     <costStuffCount>100</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
@@ -1159,11 +1164,12 @@
     <graphicData>
       <texPath>Weapons/Urukhai/urukhai-machete</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>UrukMachete</li>
-      <li>UrukMelee</li>
+      <li>LotROG_Uruk_Machete</li>
+      <li>LotROG_Uruk_Melee</li>
     </weaponTags>
     <costStuffCount>100</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
@@ -1223,8 +1229,8 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>UrukSword</li>
-      <li>UrukMelee</li>
+      <li>LotROG_Uruk_Sword</li>
+      <li>LotROG_Uruk_Melee</li>
     </weaponTags>
     <costStuffCount>100</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
@@ -1280,11 +1286,12 @@
     <graphicData>
       <texPath>Weapons/Urukhai/urukhai-spear</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.2</drawSize>
     </graphicData>
     <techLevel>Neolithic</techLevel>
     <weaponTags>
-      <li>UrukSpear</li>
-      <li>UrukMelee</li>
+      <li>LotROG_Uruk_Spear</li>
+      <li>LotROG_Uruk_Melee</li>
     </weaponTags>
     <weaponClasses>
       <li>Neolithic</li>
@@ -1353,8 +1360,8 @@
       <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
-      <li>UrukBow</li>
-      <li>UrukRanged</li>
+      <li>LotROG_Uruk_Bow</li>
+      <li>LotROG_Uruk_Ranged</li>
     </weaponTags>
     <weaponClasses>
       <li>Ranged</li>
@@ -1418,8 +1425,8 @@
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
-      <li>UrukCrossBow</li>
-      <li>UrukRanged</li>
+      <li>LotROG_Uruk_CrossBow</li>
+      <li>LotROG_Uruk_Ranged</li>
     </weaponTags>
     <weaponClasses>
       <li>Ranged</li>
