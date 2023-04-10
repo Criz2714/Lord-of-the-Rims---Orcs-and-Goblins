@@ -168,6 +168,7 @@
     <graphicData>
       <texPath>Weapons/Goblin/goblin-spear</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.3</drawSize>
     </graphicData>
     <techLevel>Neolithic</techLevel>
     <weaponTags>
