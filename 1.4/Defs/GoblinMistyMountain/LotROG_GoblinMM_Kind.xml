@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
   <PawnKindDef Name="GoblinMistyMountainsVillager">
     <defName>LotROG_GoblinMistyMountains</defName>
     <label>misty mountains goblin</label>
@@ -31,7 +32,7 @@
       <max>5000</max>
     </weaponMoney>
     <weaponTags>
-      <li>NeolithicMeleeBasic</li>
+      <li>LotROG_Goblin_Melee</li>
     </weaponTags>
     <techHediffsMoney>
       <min>5000</min>
@@ -60,11 +61,13 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
+
   <PawnKindDef ParentName="GoblinMistyMountainsVillager">
     <defName>LotROG_GoblinMistyMountains_Trader</defName>
     <label>misty mountains goblin trader</label>
     <trader>true</trader>
   </PawnKindDef>
+
   <PawnKindDef ParentName="GoblinMistyMountainsVillager" Name="GoblinMistyMountainsFighter">
     <defName>LotROG_GoblinMistyMountains_Fighter</defName>
     <label>misty mountains goblin fighter</label>
@@ -83,7 +86,7 @@
       <max>5000</max>
     </weaponMoney>
     <weaponTags Inherit="False">
-      <li>NeolithicMeleeBasic</li>
+      <li>LotROG_Goblin_Melee</li>
     </weaponTags>
     <invNutrition>2.55</invNutrition>
     <inventoryOptions>
@@ -108,21 +111,24 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
+
   <PawnKindDef ParentName="GoblinMistyMountainsFighter" Name="GoblinMistyMountainsRanged">
     <defName>LotROG_GoblinMistyMountains_Ranged</defName>
     <label>misty mountains goblin archer</label>
     <combatPower>60</combatPower>
     <weaponTags Inherit="False">
-      <li>NeolithicRangedBasic</li>
+      <li>LotROG_Goblin_Ranged</li>
     </weaponTags>
   </PawnKindDef>
+
   <PawnKindDef ParentName="GoblinMistyMountainsFighter" Name="GoblinMistyMountainsChief">
     <defName>LotROG_GoblinMistyMountains_Chief</defName>
     <label>misty mountains goblin chief</label>
     <combatPower>60</combatPower>
     <factionLeader>true</factionLeader>
     <weaponTags Inherit="False">
-      <li>NeolithicRangedHeavy</li>
+      <li>LotROG_Goblin_Ranged</li>
     </weaponTags>
   </PawnKindDef>
+
 </Defs>

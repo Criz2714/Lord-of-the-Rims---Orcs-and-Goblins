@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
   <PawnKindDef Name="OrcGundabadVillager">
     <defName>LotROG_OrcGundabad</defName>
     <label>gundabad orc</label>
@@ -31,7 +32,7 @@
       <max>5000</max>
     </weaponMoney>
     <weaponTags>
-      <li>NeolithicMeleeBasic</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <techHediffsMoney>
       <min>5000</min>
@@ -60,11 +61,13 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
+
   <PawnKindDef ParentName="OrcGundabadVillager">
     <defName>LotROG_OrcGundabad_Trader</defName>
     <label>gundabad orc trader</label>
     <trader>true</trader>
   </PawnKindDef>
+
   <PawnKindDef ParentName="OrcGundabadVillager" Name="OrcGundabadFighter">
     <defName>LotROG_OrcGundabad_Fighter</defName>
     <label>gundabad orc fighter</label>
@@ -83,7 +86,7 @@
       <max>5000</max>
     </weaponMoney>
     <weaponTags Inherit="False">
-      <li>NeolithicMeleeBasic</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <invNutrition>2.55</invNutrition>
     <inventoryOptions>
@@ -108,21 +111,24 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
+
   <PawnKindDef ParentName="OrcGundabadFighter" Name="OrcGundabadRanged">
     <defName>LotROG_OrcGundabad_Ranged</defName>
     <label>gundabad orc archer</label>
     <combatPower>60</combatPower>
     <weaponTags Inherit="False">
-      <li>NeolithicRangedBasic</li>
+      <li>LotROG_Gundabad_Ranged</li>
     </weaponTags>
   </PawnKindDef>
+
   <PawnKindDef ParentName="OrcGundabadFighter" Name="OrcGundabadChief">
     <defName>LotROG_OrcGundabad_Chief</defName>
     <label>gundabad orc chief</label>
     <combatPower>60</combatPower>
     <factionLeader>true</factionLeader>
     <weaponTags Inherit="False">
-      <li>NeolithicRangedHeavy</li>
+      <li>LotROG_Gundabad_Ranged</li>
     </weaponTags>
   </PawnKindDef>
+
 </Defs>

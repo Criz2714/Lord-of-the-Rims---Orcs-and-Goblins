@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
   <PawnKindDef Name="OrcMordorVillager">
     <defName>LotROG_OrcMordor</defName>
     <label>mordor orc</label>
@@ -22,7 +23,6 @@
       <max>900</max>
     </apparelMoney>
     <apparelTags>
-      <li>Tribal</li>
       <li>LotROG_Goblinlike</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
@@ -31,7 +31,7 @@
       <max>5000</max>
     </weaponMoney>
     <weaponTags>
-      <li>NeolithicMeleeBasic</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <techHediffsMoney>
       <min>5000</min>
@@ -60,11 +60,13 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
+
   <PawnKindDef ParentName="OrcMordorVillager">
     <defName>LotROG_OrcMordor_Trader</defName>
     <label>mordor orc trader</label>
     <trader>true</trader>
   </PawnKindDef>
+
   <PawnKindDef ParentName="OrcMordorVillager" Name="OrcMordorFighter">
     <defName>LotROG_OrcMordor_Fighter</defName>
     <label>mordor orc fighter</label>
@@ -75,7 +77,7 @@
       <max>900</max>
     </apparelMoney>
     <apparelTags>
-      <li>Tribal</li>
+      <li>LotROG_UrukArmor</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponMoney>
@@ -83,7 +85,7 @@
       <max>5000</max>
     </weaponMoney>
     <weaponTags Inherit="False">
-      <li>NeolithicMeleeBasic</li>
+      <li>LotROG_Gundabad_Melee</li>
     </weaponTags>
     <invNutrition>2.55</invNutrition>
     <inventoryOptions>
@@ -108,21 +110,24 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
+
   <PawnKindDef ParentName="OrcMordorFighter" Name="OrcMordorRanged">
     <defName>LotROG_OrcMordor_Ranged</defName>
     <label>mordor orc archer</label>
     <combatPower>60</combatPower>
     <weaponTags Inherit="False">
-      <li>NeolithicRangedBasic</li>
+      <li>LotROG_Gundabad_Ranged</li>
     </weaponTags>
   </PawnKindDef>
+
   <PawnKindDef ParentName="OrcMordorFighter" Name="OrcMordorChief">
     <defName>LotROG_OrcMordor_Chief</defName>
     <label>mordor orc chief</label>
     <combatPower>60</combatPower>
     <factionLeader>true</factionLeader>
     <weaponTags Inherit="False">
-      <li>NeolithicRangedHeavy</li>
+      <li>LotROG_Gundabad_Bow</li>
     </weaponTags>
   </PawnKindDef>
+
 </Defs>
