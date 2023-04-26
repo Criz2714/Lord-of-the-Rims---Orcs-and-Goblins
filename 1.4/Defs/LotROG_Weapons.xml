@@ -344,8 +344,14 @@
     </tools>
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
-  <Gunplay.GunPropDef ParentName="GunplayArrow">
+  <Gunplay.GunPropDef MayRequire="automatic.gunplay">
       <defName>LotROG_Goblin_Bow</defName>
+        <bow>
+            <stretchHorizontal>0.45</stretchHorizontal>
+            <stretchVertical>-0.25</stretchVertical>
+        </bow>
+        <projectileImpactSound>arrow</projectileImpactSound>
+        <projectileImpactEffect>arrow</projectileImpactEffect>
   </Gunplay.GunPropDef>
 
 
@@ -960,8 +966,14 @@
     </tools>
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
-  <Gunplay.GunPropDef ParentName="GunplayArrow">
+  <Gunplay.GunPropDef MayRequire="automatic.gunplay">
       <defName>LotROG_Gundabad_Bow</defName>
+        <bow>
+            <stretchHorizontal>0.45</stretchHorizontal>
+            <stretchVertical>-0.25</stretchVertical>
+        </bow>
+        <projectileImpactSound>arrow</projectileImpactSound>
+        <projectileImpactEffect>arrow</projectileImpactEffect>
   </Gunplay.GunPropDef>
 
  <!-- ================================================================================ -->
@@ -1093,8 +1105,14 @@
     </tools>
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
-  <Gunplay.GunPropDef ParentName="GunplayArrow">
+  <Gunplay.GunPropDef MayRequire="automatic.gunplay">
       <defName>LotROG_Moria_Bow</defName>
+        <bow>
+            <stretchHorizontal>0.45</stretchHorizontal>
+            <stretchVertical>-0.25</stretchVertical>
+        </bow>
+        <projectileImpactSound>arrow</projectileImpactSound>
+        <projectileImpactEffect>arrow</projectileImpactEffect>
   </Gunplay.GunPropDef>
 
  <!-- ================================================================================ -->
@@ -1408,8 +1426,14 @@
     </tools>
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
-  <Gunplay.GunPropDef ParentName="GunplayArrow">
+  <Gunplay.GunPropDef MayRequire="automatic.gunplay">
       <defName>LotROG_Uruk_Bow</defName>
+        <bow>
+            <stretchHorizontal>0.45</stretchHorizontal>
+            <stretchVertical>-0.25</stretchVertical>
+        </bow>
+        <projectileImpactSound>arrow</projectileImpactSound>
+        <projectileImpactEffect>arrow</projectileImpactEffect>
   </Gunplay.GunPropDef>
 
  <!-- Uruk-hai Cross Bow -->
@@ -1476,12 +1500,14 @@
     </tools>
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
-  <Gunplay.GunPropDef ParentName="GunplayArrow">
+  <Gunplay.GunPropDef MayRequire="automatic.gunplay">
       <defName>LotROG_Uruk_Crossbow</defName>
 		<bow>
 		  <stretchHorizontal>0</stretchHorizontal>
           <stretchVertical>-0.25</stretchVertical>
 		</bow>
+        <projectileImpactSound>arrow</projectileImpactSound>
+        <projectileImpactEffect>arrow</projectileImpactEffect>
   </Gunplay.GunPropDef>
 
 </Defs>

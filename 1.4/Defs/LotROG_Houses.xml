@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--======================== SmallHouse_Goblin ==============================-->
+  <ThingDef MayRequire="Ottersholdhands.VillagesHomes" ParentName="BedWithQualityBase">
+    <defName>LotROG_Village_SmallHouse_MoriaGoblin</defName>
+    <modExtensions>
+      <li Class="VillageStandalone.VillageStandaloneModExtension">
+        <RemoveSoakingWet>true</RemoveSoakingWet>
+        <RemoveSleptOutside>true</RemoveSleptOutside>
+        <RemoveSleptInCold>true</RemoveSleptInCold>
+        <RemoveSleptInHeat>true</RemoveSleptInHeat>
+        <RemoveSleptInBarracks>true</RemoveSleptInBarracks>
+        <RemoveSleepDisturbed>true</RemoveSleepDisturbed>
+        <customHediff>VillageStandalone_ComfyBoth</customHediff>
+
+      </li>
+    </modExtensions>
+    <tickerType>Normal</tickerType>
+    <label>moria goblin dwelling</label>
+    <description>A small goblin dwelling</description>
+    <designatorDropdown>Village_SmallHouse</designatorDropdown>
+    <graphicData>
+      <texPath>MoriaGoblin/MoriaGoblinHut</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4.5,4.5)</drawSize>
+      <drawRotated>false</drawRotated>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(2.9,1,2.9)</volume>
+        <offset>(-0.10,0,0)</offset>
+      </shadowData>
+    </graphicData>
+
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>1.0</fuelConsumptionRate>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>1</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>
+      <li Class="CompProperties_Glower">
+         <glowRadius>3.5</glowRadius>
+      <overlightRadius>3.0</overlightRadius> 
+        <glowColor>(252,197,115,0)</glowColor>
+      </li>
+      <li Class="VillageStandalone.CompProperties_GiveThoughtVillage">
+
+        <thoughtDef>House_Small_Buff</thoughtDef>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
+        </linkableFacilities>
+      </li>
+      <li>
+        <compClass>VillageStandalone.CompAssignBedHediff</compClass>
+      </li>
+
+      <li MayRequire="owlchemist.simplefx.smoke2" Class="Flecker.CompProperties_Smoker">
+        <fleckDef>Owl_SmokeHeavy</fleckDef>
+        <particleOffset>(0,3,2)</particleOffset>
+        <indoorAlt>Owl_SmokeHeavy</indoorAlt>
+      </li>
+
+    </comps>
+    <holdsRoof>true</holdsRoof>
+    <specialDisplayRadius>2</specialDisplayRadius>
+    <statBases>
+        <MaxHitPoints>600</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>4</Beauty>
+      <BeautyOutdoors>6</BeautyOutdoors>
+      <WorkToBuild>80000</WorkToBuild>
+      <Mass>400</Mass>
+      <BedRestEffectiveness>1</BedRestEffectiveness>
+      <Comfort>.8</Comfort>
+      <ImmunityGainSpeedFactor>1.10</ImmunityGainSpeedFactor>
+      <SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+      <MedicalTendQualityOffset>0.10</MedicalTendQualityOffset>
+      <BirthRitualQualityOffset MayRequire="Ludeon.RimWorld.Biotech">2</BirthRitualQualityOffset>
+
+    </statBases>
+    <size>(2,2)</size>
+  <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <uiIconScale>.9</uiIconScale>
+    <uiIconPath>MoriaGoblin/Goblin_UI</uiIconPath>
+    <uiOrder>2405</uiOrder>
+    <costStuffCount>500</costStuffCount>
+    <building>
+      <paintable>true</paintable>
+      <bed_showSleeperBody>False</bed_showSleeperBody>
+      <bed_healPerDay>4</bed_healPerDay>
+      <bed_caravansCanUse>false</bed_caravansCanUse>
+      <ai_neverTrashThis>true</ai_neverTrashThis>
+      <relatedBuildCommands>
+        <li>Village_Fence</li>
+        <li>FenceGate</li>
+        <li MayRequire="solaris.furniturebase">Village_Fence_Gloomy</li>
+        <li MayRequire="solaris.furniturebase">RGK_Door</li>
+
+      </relatedBuildCommands>
+    </building>
+    <fillPercent>0.8</fillPercent>
+    <pathCost>70</pathCost>
+    <castEdgeShadows>False</castEdgeShadows>
+    <techLevel>Neolithic</techLevel>
+
+    <interactionCellOffset>(2,2,2)</interactionCellOffset>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <drawGUIOverlay>True</drawGUIOverlay>
+    <defaultPlacingRot>South</defaultPlacingRot>
+
+    <blockWind>true</blockWind>
+    <blockLight>false</blockLight>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+
+  </ThingDef>
+
+</Defs>
