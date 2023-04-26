@@ -345,6 +345,10 @@
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
 
+  <Gunplay.GunPropDef ParentName="GunplayArrow">
+      <defName>LotROG_Goblin_Bow</defName>
+  </Gunplay.GunPropDef>
+
 
  <!-- ================================================================================ -->
  <!-- =================================== Gundabad =================================== -->
@@ -958,6 +962,9 @@
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
 
+  <Gunplay.GunPropDef ParentName="GunplayArrow">
+      <defName>LotROG_Gundabad_Bow</defName>
+  </Gunplay.GunPropDef>
 
  <!-- ================================================================================ -->
  <!-- ==================================== Moria ===================================== -->
@@ -1089,6 +1096,9 @@
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
 
+  <Gunplay.GunPropDef ParentName="GunplayArrow">
+      <defName>LotROG_Moria_Bow</defName>
+  </Gunplay.GunPropDef>
 
  <!-- ================================================================================ -->
  <!-- =================================== Uruk-hai =================================== -->
@@ -1402,6 +1412,10 @@
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
 
+  <Gunplay.GunPropDef ParentName="GunplayArrow">
+      <defName>LotROG_Uruk_Bow</defName>
+  </Gunplay.GunPropDef>
+
  <!-- Uruk-hai Cross Bow -->
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>LotROG_Uruk_Crossbow</defName>
@@ -1466,5 +1480,13 @@
     </tools>
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
+
+  <Gunplay.GunPropDef ParentName="GunplayArrow">
+      <defName>LotROG_Uruk_Crossbow</defName>
+		<bow>
+		  <stretchHorizontal>0</stretchHorizontal>
+          <stretchVertical>-0.25</stretchVertical>
+		</bow>
+  </Gunplay.GunPropDef>
 
 </Defs>
