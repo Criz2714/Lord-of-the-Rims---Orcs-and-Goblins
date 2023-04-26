@@ -344,7 +344,6 @@
     </tools>
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
-
   <Gunplay.GunPropDef ParentName="GunplayArrow">
       <defName>LotROG_Goblin_Bow</defName>
   </Gunplay.GunPropDef>
@@ -961,7 +960,6 @@
     </tools>
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
-
   <Gunplay.GunPropDef ParentName="GunplayArrow">
       <defName>LotROG_Gundabad_Bow</defName>
   </Gunplay.GunPropDef>
@@ -1095,7 +1093,6 @@
     </tools>
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
-
   <Gunplay.GunPropDef ParentName="GunplayArrow">
       <defName>LotROG_Moria_Bow</defName>
   </Gunplay.GunPropDef>
@@ -1411,7 +1408,6 @@
     </tools>
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
-
   <Gunplay.GunPropDef ParentName="GunplayArrow">
       <defName>LotROG_Uruk_Bow</defName>
   </Gunplay.GunPropDef>
@@ -1480,7 +1476,6 @@
     </tools>
     <rotateInShelves>false</rotateInShelves>
   </ThingDef>
-
   <Gunplay.GunPropDef ParentName="GunplayArrow">
       <defName>LotROG_Uruk_Crossbow</defName>
 		<bow>
