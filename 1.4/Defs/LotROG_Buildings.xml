@@ -178,4 +178,57 @@
     <uiIconPath>MoriaGoblin/MoriaGoblinFlag</uiIconPath>
   </ThingDef>
 
+  <ThingDef ParentName="MusicalInstrumentBase">
+    <defName>LotROG_MoriaGoblinDrum</defName>
+    <label>Goblin drum</label>
+    <description>A large wooden drum used as a music source for tribal rituals and parties.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>MoriaGoblin/MoriaGoblinDrum</texPath>
+      <drawSize>(1.4,1.4)</drawSize>
+      <drawRotated>False</drawRotated>
+      <shadowData>
+        <volume>(0.5, 1, 0.5)</volume>
+      </shadowData>
+    </graphicData>
+    <designationCategory>Ideology</designationCategory>
+    <fillPercent>0.35</fillPercent>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Mass>5</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Leathery</li>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <costList>
+      <WoodLog>50</WoodLog>
+    </costList>
+    <recipeMaker/>
+    <comps Inherit="False">
+      <li Class="CompProperties_ThrownFleckEmitter">
+        <fleck>Music</fleck>
+        <offsetMin>(-0.6,0,0.3)</offsetMin>
+        <offsetMax>(0.6,0,0.5)</offsetMax>
+        <emissionInterval>100</emissionInterval>
+        <scale>0.6~0.9</scale>
+        <rotationRate>-15~15</rotationRate>
+        <velocityX>0.3~0.7</velocityX>
+        <velocityY>0.7~1.0</velocityY>
+      </li>
+    </comps>
+    <placeWorkers Inherit="False">
+      <li>PlaceWorker_LinkToCampfire</li>
+    </placeWorkers>
+  </ThingDef>
+
 </Defs>
