@@ -13,6 +13,7 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>25</LeatherAmount>
       <ResearchSpeed>0.10</ResearchSpeed>
+      <RoyalFavorValue MayRequire="Ludeon.RimWorld.Royalty">3</RoyalFavorValue>
     </statBases>
     <tools>
       <li>
@@ -69,6 +70,7 @@
         <power>6</power>
         <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>																				 
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
@@ -85,6 +87,10 @@
       <baseHealthScale>1</baseHealthScale>
       <foodType>CarnivoreAnimal, AnimalProduct, Meat, Kibble, Processed, Corpse</foodType>
       <gestationPeriodDays>18</gestationPeriodDays>
+      <meatMarketValue>0.8</meatMarketValue>
+      <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <soundCallIntervalRange>2000~5000</soundCallIntervalRange>																			
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -150,7 +156,16 @@
       </specialShadowData>
       <ageGenerationCurve>
         <points>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->  
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>  
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>      
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li><!-- End exclude -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>									
           <li>(3,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>												
           <li>(5,100)</li>
           <li>(10,100)</li>
           <li>(15,50)</li>
@@ -161,6 +176,7 @@
       </ageGenerationCurve>
       <hediffGiverSets>
         <li>OrganicStandard</li>
+        <li>Human</li>					  
       </hediffGiverSets>
     </race>
     <recipes>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <TraitDef>
+    <defName>LotROG_Trait_Wimp</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>wimp</label>
+        <description>{PAWN_nameDef} has fragile skin and bones. {PAWN_pronoun} takes more damage than other people from the same blows.</description>
+        <statFactors>
+          <IncomingDamageFactor>1.10</IncomingDamageFactor>
+        </statFactors>
+      </li>
+    </degreeDatas>
+    <exclusionTags>
+      <li>Toughness</li>
+    </exclusionTags>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>LotROG_Trait_Robust</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>robust</label>
+        <description>{PAWN_nameDef} has thick skin, dense flesh, and durable bones. {PAWN_pronoun} takes less damage than other people from the same blows. {PAWN_pronoun} is hard to kill.</description>
+        <statFactors>
+          <IncomingDamageFactor>0.90</IncomingDamageFactor>
+        </statFactors>
+      </li>
+    </degreeDatas>
+    <exclusionTags>
+      <li>Toughness</li>
+    </exclusionTags>
+  </TraitDef>
+
+</Defs>

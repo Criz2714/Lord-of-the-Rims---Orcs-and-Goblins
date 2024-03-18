@@ -1,6 +1,5 @@
-# Lord of the Rims - Orcs and Goblins
-
-
+# LordoftheRimsOrcsandGoblins
+
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Mingji Lim aka WalkingProblems mod
@@ -26,4 +25,4 @@ Orc, Goblins and Uruk Hai....
 
 
 
-Last updated 2023-04-10
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2793442551]Last updated 2023-01-09
