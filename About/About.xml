@@ -2,8 +2,12 @@
 <ModMetaData>
   <name>[M3] [Fork] Lord of the Rims - Orcs and Goblins  [1.4 - 1.5]</name>
   <packageId>M3.Fork.LordOftheRimsOrcsAndGoblins</packageId>
-  <author>Mingji Lim aka WalkingProblem</author>
-  <url>https://github.com/emipa606/LordoftheRimsOrcsandGoblins</url>
+  <author>mupe3, WalkingProblem</author>
+  <url></url>
+
+	<modIconPath IgnoreIfNoMatchingField="True">ModIcon/SolariusCoin</modIconPath>
+	<modVersion IgnoreIfNoMatchingField="True">1.0.6</modVersion>
+
   <supportedVersions>
     <li>1.4</li>
     <li>1.5</li>
@@ -13,7 +17,6 @@
 		<li>mupe3.LoadOrder.01.Base</li>
 		<li>mupe3.LoadOrder.02.Main</li>
 
-		
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
@@ -28,37 +31,34 @@
 		<li>mupe3.LoadOrder.05.End</li>
 	</loadBefore>
 
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
-Update of Mingji Lim aka WalkingProblems mod
+  <description>
+
+[img]https://i.imgur.com/F9Pv3pa.png[/img]
+Lord of the Rims - Orcs and Goblins adds Uruk, Orc, Goblin factions and equipment.
+
+
+[img]https://i.imgur.com/9EUqtcn.png[/img]
+(content images wip)
+
+
+[img]https://i.imgur.com/XzjgGHm.png[/img]
+Q: Is this safe to add or remove midgame?
+A: Yes its safe to add and should be safe to remove midgame.
+
+
+[img]https://i.imgur.com/cEpnXyu.png[/img]
+continuation / fork of WalkingProblems mod
 https://github.com/Lord-of-the-Rims-DevTeam/Lord-of-the-Rims---Orcs-and-Goblins
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
 
-[table]
-    [tr]
-        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/LordoftheRimsOrcsandGoblins][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-    [/tr]
-    [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
-    [/tr]
-[/table]
-	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
-Orc, Goblins and Uruk Hai....
-
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://i.imgur.com/yoI0PuL.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
-[*] For best support, please use the Discord-channel for error-reporting.
-[*] Do not report errors by making a discussion-thread, I get no notification of that.
-[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] For best support, please use Discord for error-reporting.
 [/list]
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2793442551]Last updated 2023-01-09[/url]</description>
+</description>
 
 </ModMetaData>
 
