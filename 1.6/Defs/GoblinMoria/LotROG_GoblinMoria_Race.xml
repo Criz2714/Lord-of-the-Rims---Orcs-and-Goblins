@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="Human">
+    <defName>LotROG_GoblinMoria</defName>
+    <label>moria goblin</label>
+    <description>Moria Goblin description</description>
+  </ThingDef>
+</Defs>

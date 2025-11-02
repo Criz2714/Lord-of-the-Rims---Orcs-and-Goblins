@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Gundabad -->
+  <GeneDef ParentName="GeneEarsBase">
+    <defName>LotROG_Gene_Ears_GundabadOrc</defName>
+    <label>Gundabad orc ears</label>
+    <description>Carriers of this gene have Gundabad orc ears.</description>
+    <iconPath>UI/Icons/Genes/Gene_EarPointed</iconPath>
+    <randomChosen>false</randomChosen>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>GundabadOrc/Ears/GundabadEar</texPath>
+        <colorType>Skin</colorType>
+        <parentTagDef>Head</parentTagDef>
+        <useSkinShader>true</useSkinShader>
+        <useRottenColor>true</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <defaultData>
+            <layer>70</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>point</symbol></li>
+        <li><symbol>sharp</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>ear</symbol></li>
+        <li><symbol>point</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <!-- MistyGoblin -->
+  <GeneDef ParentName="GeneEarsBase">
+    <defName>LotROG_Gene_Ears_MistyGoblin</defName>
+    <label>Misty mountain goblin ears</label>
+    <description>Carriers of this gene have Misty mountain goblin ears.</description>
+    <iconPath>UI/Icons/Genes/Gene_EarPointed</iconPath>
+    <randomChosen>false</randomChosen>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>MistyMountainGoblin/Ears/MistyEar</texPath>
+        <colorType>Skin</colorType>
+        <parentTagDef>Head</parentTagDef>
+        <useSkinShader>true</useSkinShader>
+        <useRottenColor>true</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <defaultData>
+            <layer>70</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>point</symbol></li>
+        <li><symbol>sharp</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>ear</symbol></li>
+        <li><symbol>point</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <!-- MordorOrc -->
+  <GeneDef ParentName="GeneEarsBase">
+    <defName>LotROG_Gene_Ears_MordorOrc</defName>
+    <label>Mordor orc ears</label>
+    <description>Carriers of this gene have Mordor orc ears.</description>
+    <iconPath>UI/Icons/Genes/Gene_EarPointed</iconPath>
+    <randomChosen>false</randomChosen>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>MordorOrc/Ears/MordorEar</texPath>
+        <colorType>Skin</colorType>
+        <parentTagDef>Head</parentTagDef>
+        <useSkinShader>true</useSkinShader>
+        <useRottenColor>true</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <defaultData>
+            <layer>70</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>point</symbol></li>
+        <li><symbol>sharp</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>ear</symbol></li>
+        <li><symbol>point</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <!-- MoriaGoblin -->
+  <GeneDef ParentName="GeneEarsBase">
+    <defName>LotROG_Gene_Ears_MoriaGoblin</defName>
+    <label>Moria goblin ears</label>
+    <description>Carriers of this gene have Moria goblin ears.</description>
+    <iconPath>UI/Icons/Genes/Gene_EarPointed</iconPath>
+    <randomChosen>false</randomChosen>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>MoriaGoblin/Ears/MoriaEar</texPath>
+        <colorType>Skin</colorType>
+        <parentTagDef>Head</parentTagDef>
+        <useSkinShader>true</useSkinShader>
+        <useRottenColor>true</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <defaultData>
+            <layer>70</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>point</symbol></li>
+        <li><symbol>sharp</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>ear</symbol></li>
+        <li><symbol>point</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <!-- Uruk-hai -->
+  <GeneDef ParentName="GeneEarsBase">
+    <defName>LotROG_Gene_Ears_Urukhai</defName>
+    <label>Uruk-hai ears</label>
+    <description>Carriers of this gene have Uruk-hai ears.</description>
+    <iconPath>UI/Icons/Genes/Gene_EarPointed</iconPath>
+    <randomChosen>false</randomChosen>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>UrukHai/Ears/UrukEar</texPath>
+        <colorType>Skin</colorType>
+        <parentTagDef>Head</parentTagDef>
+        <useSkinShader>true</useSkinShader>
+        <useRottenColor>true</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <defaultData>
+            <layer>70</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>point</symbol></li>
+        <li><symbol>sharp</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>ear</symbol></li>
+        <li><symbol>point</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+
+  <!-- Eyes --> <!-- OLD
+  <GeneDef ParentName="GeneEyeColor">
+    <defName>LotROG_Gene_Eyes_Red</defName>
+    <label>red eyes</label>
+    <labelShortAdj>red-eyed</labelShortAdj>
+    <description>Carriers of this gene have deeply red-pigmented eyes.</description>
+    <iconPath>UI/Icons/Genes/Gene_RedEyes</iconPath>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <graphicData>
+      <drawScale>0.28</drawScale>
+      <graphicPath>Things/Pawn/Humanlike/HeadAttachments/RedEyes/Male/RedEyes_Male</graphicPath>
+      <graphicPathFemale>Things/Pawn/Humanlike/HeadAttachments/RedEyes/Female/RedEyes_Female</graphicPathFemale>
+    </graphicData>
+  </GeneDef>
+ -->
+
+  <!-- Brows --> <!-- OLD
+  <GeneDef>
+    <defName>LotROG_Gene_Brow</defName>
+    <label>heavy brow</label>
+    <description>Carriers of this gene have a prominent brow.</description>
+    <biostatCpx>0</biostatCpx>
+    <displayCategory>Cosmetic</displayCategory>
+    <iconPath>UI/Icons/Genes/Gene_HeavyBrow</iconPath>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    <graphicData>
+      <useSkinShader>true</useSkinShader>
+      <graphicPath>Things/Pawn/Humanlike/HeadAttachments/HeavyBrow/HeavyBrow</graphicPath>
+      <visibleNorth>false</visibleNorth>
+      <layer>PostSkin</layer>
+      <colorType>Skin</colorType>
+      <drawOffset>(0, -0.002, 0)</drawOffset>
+    </graphicData>
+  </GeneDef>
+  -->
+
+  <!-- Nose --> <!-- OLD
+   <GeneDef ParentName="GeneNoseBase">
+    <defName>LotROG_Gene_Nose_Human</defName>
+    <label>human nose</label>
+    <description>Carriers of this gene have regular human noses.</description>
+    <iconPath>UI/Icons/Genes/Gene_NoseHuman</iconPath>
+    <graphicData>
+      <graphicPath>Things/Pawn/Humanlike/HeadAttachments/PigNose/PigNose</graphicPath>
+      <narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+      <useSkinShader>true</useSkinShader>
+      <layer>PostHair</layer>
+    </graphicData>
+    <missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>410</displayOrderInCategory>
+  </GeneDef>
+  -->
+
+</Defs>

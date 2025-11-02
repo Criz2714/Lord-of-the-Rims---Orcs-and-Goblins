@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+ <!-- ================================================================================ -->
+ <!-- ==================================== Goblin ==================================== -->
+ <!-- ================================================================================ -->
+
+ <!-- Goblin Shield -->
+
+
+ <!-- ================================================================================ -->
+ <!-- =================================== Gundabad =================================== -->
+ <!-- ================================================================================ -->
+
+ <!-- Gundabad Orc Shield Axe -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>LotROG_Gundabad_ShieldAxe</defName>
+    <label>Gundabad shield</label>
+    <description>Metal shield. \n\n\nNote: dependent on Jecstools for shield function/verb.</description>
+    <equipmentType>None</equipmentType>
+    <weaponTags>
+      <li>LotROG_ShieldGundabad</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite Inherit='False'>Smithing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Weapons/Gundabad/gundabad-shieldaxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>55</costStuffCount>
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <MaxHitPoints>155</MaxHitPoints>
+      <Mass>1.8</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-0.7</ShootingAccuracyPawn>
+      <!--MoveSpeed>-1.6</MoveSpeed-->
+    </equippedStatOffsets>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <comps>
+      <li MayRequire="jecrell.jecstools" Class="PawnShields.CompProperties_Shield">
+        <!-- Rendering systems -->
+        <wieldedGraphic>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <texPath>Weapons/Gundabad/gundabad-shieldaxe</texPath>
+          <drawSize>(1.0, 1.0)</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </wieldedGraphic>
+        <renderProperties>
+          <!-- Same as defaults in C# -->
+          <northOffset>(-0.3, -0.017, -0.3)</northOffset>
+          <southOffset>(0.3, 0.033, -0.3)</southOffset>
+          <westOffset>(-0.3, 0.053, -0.3)</westOffset>
+          <eastOffset>(0.3, -0.017, -0.3)</eastOffset>
+          <flipRotation>true</flipRotation>
+          <renderWhenPeaceful>false</renderWhenPeaceful>
+        </renderProperties>
+        <!-- Blocking system (Optional???) -->
+        <canBlockRanged>true</canBlockRanged>
+        <canBlockMelee>true</canBlockMelee>
+        <meleeBlockChanceFactor>10.0</meleeBlockChanceFactor>
+        <!-- Default: 1.0 == 100% -->
+        <rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
+        <!-- Shield damage system (Optional) -->
+        <shieldTakeDamage>true</shieldTakeDamage>
+        <shieldTakeDamageFactor>0.6</shieldTakeDamageFactor>
+        <!-- Auto discard system (Optional) -->
+        <canBeAutoDiscarded>true</canBeAutoDiscarded>
+        <healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
+        <!-- Shield fatigue system (Optional) -->
+        <useFatigue>true</useFatigue>
+        <damageToFatigueFactor>0.005</damageToFatigueFactor>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>side</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>buckle</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.0</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+ <!-- Gundabad Orc Shield Blade -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>LotROG_Gundabad_ShieldBlade</defName>
+    <label>Gundabad shield</label>
+    <description>Metal shield. \n\n\nNote: dependent on Jecstools for shield function/verb.</description>
+    <equipmentType>None</equipmentType>
+    <weaponTags>
+      <li>LotROG_ShieldGundabad</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite Inherit='False'>Smithing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Weapons/Gundabad/gundabad-shieldblade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>55</costStuffCount>
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <MaxHitPoints>155</MaxHitPoints>
+      <Mass>1.8</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-0.7</ShootingAccuracyPawn>
+      <!--MoveSpeed>-1.6</MoveSpeed-->
+    </equippedStatOffsets>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <comps>
+      <li MayRequire="jecrell.jecstools" Class="PawnShields.CompProperties_Shield">
+        <!-- Rendering systems -->
+        <wieldedGraphic>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <texPath>Weapons/Gundabad/gundabad-shieldblade</texPath>
+          <drawSize>(1.0, 1.0)</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </wieldedGraphic>
+        <renderProperties>
+          <!-- Same as defaults in C# -->
+          <northOffset>(-0.3, -0.017, -0.3)</northOffset>
+          <southOffset>(0.3, 0.033, -0.3)</southOffset>
+          <westOffset>(-0.3, 0.053, -0.3)</westOffset>
+          <eastOffset>(0.3, -0.017, -0.3)</eastOffset>
+          <flipRotation>true</flipRotation>
+          <renderWhenPeaceful>false</renderWhenPeaceful>
+        </renderProperties>
+        <!-- Blocking system (Optional???) -->
+        <canBlockRanged>true</canBlockRanged>
+        <canBlockMelee>true</canBlockMelee>
+        <meleeBlockChanceFactor>10.0</meleeBlockChanceFactor>
+        <!-- Default: 1.0 == 100% -->
+        <rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
+        <!-- Shield damage system (Optional) -->
+        <shieldTakeDamage>true</shieldTakeDamage>
+        <shieldTakeDamageFactor>0.6</shieldTakeDamageFactor>
+        <!-- Auto discard system (Optional) -->
+        <canBeAutoDiscarded>true</canBeAutoDiscarded>
+        <healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
+        <!-- Shield fatigue system (Optional) -->
+        <useFatigue>true</useFatigue>
+        <damageToFatigueFactor>0.005</damageToFatigueFactor>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>side</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>buckle</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.0</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+ <!-- ================================================================================ -->
+ <!-- ==================================== Moria ===================================== -->
+ <!-- ================================================================================ -->
+
+ <!-- Moria Goblin Shield -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>LotROG_Moria_Shield</defName>
+    <label>Moria shield</label>
+    <description>Metal shield. \n\n\nNote: dependent on Jecstools for shield function/verb.</description>
+    <equipmentType>None</equipmentType>
+    <weaponTags>
+      <li>LotROG_ShieldMoria</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite Inherit='False'>Smithing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Weapons/Moria/moria-shield</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>55</costStuffCount>
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <MaxHitPoints>155</MaxHitPoints>
+      <Mass>1.8</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-0.7</ShootingAccuracyPawn>
+      <!--MoveSpeed>-1.6</MoveSpeed-->
+    </equippedStatOffsets>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <comps>
+      <li MayRequire="jecrell.jecstools" Class="PawnShields.CompProperties_Shield">
+        <!-- Rendering systems -->
+        <wieldedGraphic>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <texPath>Weapons/Moria/moria-shield</texPath>
+          <drawSize>(1.1, 1.1)</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </wieldedGraphic>
+        <renderProperties>
+          <!-- Same as defaults in C# -->
+          <northOffset>(-0.3, -0.017, -0.3)</northOffset>
+          <southOffset>(0.3, 0.033, -0.3)</southOffset>
+          <westOffset>(-0.3, 0.053, -0.3)</westOffset>
+          <eastOffset>(0.3, -0.017, -0.3)</eastOffset>
+          <flipRotation>true</flipRotation>
+          <renderWhenPeaceful>false</renderWhenPeaceful>
+        </renderProperties>
+        <!-- Blocking system (Optional???) -->
+        <canBlockRanged>true</canBlockRanged>
+        <canBlockMelee>true</canBlockMelee>
+        <meleeBlockChanceFactor>10.0</meleeBlockChanceFactor>
+        <!-- Default: 1.0 == 100% -->
+        <rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
+        <!-- Shield damage system (Optional) -->
+        <shieldTakeDamage>true</shieldTakeDamage>
+        <shieldTakeDamageFactor>0.6</shieldTakeDamageFactor>
+        <!-- Auto discard system (Optional) -->
+        <canBeAutoDiscarded>true</canBeAutoDiscarded>
+        <healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
+        <!-- Shield fatigue system (Optional) -->
+        <useFatigue>true</useFatigue>
+        <damageToFatigueFactor>0.005</damageToFatigueFactor>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>side</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>buckle</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.0</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+ <!-- ================================================================================ -->
+ <!-- =================================== Uruk-hai =================================== -->
+ <!-- ================================================================================ -->
+
+ <!-- Uruk-hai Shield -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>LotROG_Uruk_Shield</defName>
+    <label>Uruk-hai shield</label>
+    <description>Metal shield. \n\n\nNote: dependent on Jecstools for shield function/verb.</description>
+    <equipmentType>None</equipmentType>
+    <weaponTags>
+      <li>LotROG_ShieldUrukhai</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite Inherit='False'>Smithing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Weapons/Urukhai/urukhai-armshield</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>55</costStuffCount>
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <MaxHitPoints>155</MaxHitPoints>
+      <Mass>1.8</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-0.7</ShootingAccuracyPawn>
+      <!--MoveSpeed>-1.6</MoveSpeed-->
+    </equippedStatOffsets>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <comps>
+      <li MayRequire="jecrell.jecstools" Class="PawnShields.CompProperties_Shield">
+        <!-- Rendering systems -->
+        <wieldedGraphic>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <texPath>Weapons/Urukhai/urukhai-armshield</texPath>
+          <drawSize>(1.1, 1.1)</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </wieldedGraphic>
+        <renderProperties>
+          <!-- Same as defaults in C# -->
+          <northOffset>(-0.3, -0.017, -0.3)</northOffset>
+          <southOffset>(0.3, 0.033, -0.3)</southOffset>
+          <westOffset>(-0.3, 0.053, -0.3)</westOffset>
+          <eastOffset>(0.3, -0.017, -0.3)</eastOffset>
+          <flipRotation>true</flipRotation>
+          <renderWhenPeaceful>false</renderWhenPeaceful>
+        </renderProperties>
+        <!-- Blocking system (Optional???) -->
+        <canBlockRanged>true</canBlockRanged>
+        <canBlockMelee>true</canBlockMelee>
+        <meleeBlockChanceFactor>10.0</meleeBlockChanceFactor>
+        <!-- Default: 1.0 == 100% -->
+        <rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
+        <!-- Shield damage system (Optional) -->
+        <shieldTakeDamage>true</shieldTakeDamage>
+        <shieldTakeDamageFactor>0.6</shieldTakeDamageFactor>
+        <!-- Auto discard system (Optional) -->
+        <canBeAutoDiscarded>true</canBeAutoDiscarded>
+        <healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
+        <!-- Shield fatigue system (Optional) -->
+        <useFatigue>true</useFatigue>
+        <damageToFatigueFactor>0.005</damageToFatigueFactor>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>side</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>buckle</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.0</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

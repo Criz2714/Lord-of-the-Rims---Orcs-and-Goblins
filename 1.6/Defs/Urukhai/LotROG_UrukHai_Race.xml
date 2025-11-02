@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="Human">
+    <defName>LotROG_UrukHai</defName>
+    <label>uruk hai</label>
+    <description>UrukHai description</description>
+  </ThingDef>
+</Defs>

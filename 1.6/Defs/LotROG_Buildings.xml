@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--======================== SmallHouse_Goblin ==============================-->
+  <ThingDef MayRequire="Ottersholdhands.VillagesHomes" ParentName="BedWithQualityBase">
+    <defName>LotROG_Village_SmallHouse_MoriaGoblin</defName>
+    <modExtensions>
+      <li Class="VillageStandalone.VillageStandaloneModExtension">
+        <RemoveSoakingWet>true</RemoveSoakingWet>
+        <RemoveSleptOutside>true</RemoveSleptOutside>
+        <RemoveSleptInCold>true</RemoveSleptInCold>
+        <RemoveSleptInHeat>true</RemoveSleptInHeat>
+        <RemoveSleptInBarracks>true</RemoveSleptInBarracks>
+        <RemoveSleepDisturbed>true</RemoveSleepDisturbed>
+        <customHediff>VillageStandalone_ComfyBoth</customHediff>
+
+      </li>
+    </modExtensions>
+    <tickerType>Normal</tickerType>
+    <label>moria goblin dwelling</label>
+    <description>A small goblin dwelling</description>
+    <designatorDropdown>Village_SmallHouse</designatorDropdown>
+    <graphicData>
+      <texPath>MoriaGoblin/MoriaGoblinHut</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4.5,4.5)</drawSize>
+      <drawRotated>false</drawRotated>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(2.9,1,2.9)</volume>
+        <offset>(-0.10,0,0)</offset>
+      </shadowData>
+    </graphicData>
+
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>1.0</fuelConsumptionRate>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>1</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>
+      <li Class="CompProperties_Glower">
+         <glowRadius>3.5</glowRadius>
+      <overlightRadius>3.0</overlightRadius> 
+        <glowColor>(252,197,115,0)</glowColor>
+      </li>
+      <li Class="VillageStandalone.CompProperties_GiveThoughtVillage">
+
+        <thoughtDef>House_Small_Buff</thoughtDef>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
+        </linkableFacilities>
+      </li>
+      <li>
+        <compClass>VillageStandalone.CompAssignBedHediff</compClass>
+      </li>
+
+      <li MayRequire="owlchemist.simplefx.smoke2" Class="Flecker.CompProperties_Smoker">
+        <fleckDef>Owl_SmokeHeavy</fleckDef>
+        <particleOffset>(0,3,2)</particleOffset>
+        <indoorAlt>Owl_SmokeHeavy</indoorAlt>
+      </li>
+
+    </comps>
+    <holdsRoof>true</holdsRoof>
+    <specialDisplayRadius>2</specialDisplayRadius>
+    <statBases>
+        <MaxHitPoints>600</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>4</Beauty>
+      <BeautyOutdoors>6</BeautyOutdoors>
+      <WorkToBuild>80000</WorkToBuild>
+      <Mass>400</Mass>
+      <BedRestEffectiveness>1</BedRestEffectiveness>
+      <Comfort>.8</Comfort>
+      <ImmunityGainSpeedFactor>1.10</ImmunityGainSpeedFactor>
+      <SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+      <MedicalTendQualityOffset>0.10</MedicalTendQualityOffset>
+      <BirthRitualQualityOffset MayRequire="Ludeon.RimWorld.Biotech">2</BirthRitualQualityOffset>
+
+    </statBases>
+    <size>(2,2)</size>
+  <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <uiIconScale>.9</uiIconScale>
+    <uiIconPath>MoriaGoblin/Goblin_UI</uiIconPath>
+    <uiOrder>2405</uiOrder>
+    <costStuffCount>500</costStuffCount>
+    <building>
+      <paintable>true</paintable>
+      <bed_showSleeperBody>False</bed_showSleeperBody>
+      <bed_healPerDay>4</bed_healPerDay>
+      <bed_caravansCanUse>false</bed_caravansCanUse>
+      <ai_neverTrashThis>true</ai_neverTrashThis>
+      <relatedBuildCommands>
+        <li>Village_Fence</li>
+        <li>FenceGate</li>
+        <li MayRequire="solaris.furniturebase">Village_Fence_Gloomy</li>
+        <li MayRequire="solaris.furniturebase">RGK_Door</li>
+
+      </relatedBuildCommands>
+    </building>
+    <fillPercent>0.8</fillPercent>
+    <pathCost>70</pathCost>
+    <castEdgeShadows>False</castEdgeShadows>
+    <techLevel>Neolithic</techLevel>
+
+    <interactionCellOffset>(2,2,2)</interactionCellOffset>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <drawGUIOverlay>True</drawGUIOverlay>
+    <defaultPlacingRot>South</defaultPlacingRot>
+
+    <blockWind>true</blockWind>
+    <blockLight>false</blockLight>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>LotROG_MoriaGoblinFlag</defName>
+    <label>Moria Banner</label>
+    <description>Moria goblin banner.</description>
+    <designationCategory>Structure</designationCategory>
+    <uiOrder>2040</uiOrder>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>0</pathCost>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToBuild>750</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+    </statBases>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <holdsRoof>false</holdsRoof>
+    <canOverlapZones>false</canOverlapZones>
+    <rotatable>false</rotatable>
+    <fertility>0</fertility>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>false</paintable>
+    </building>
+    <graphicData>
+      <drawSize>(2.5,2.5)</drawSize>
+      <drawOffset>(0,0,0.6)</drawOffset>
+      <texPath>MoriaGoblin/MoriaGoblinFlag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.5, 0.3)</volume>
+        <offset>(0,0,-0.23)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>MoriaGoblin/MoriaGoblinFlag</uiIconPath>
+  </ThingDef>
+
+  <ThingDef ParentName="MusicalInstrumentBase">
+    <defName>LotROG_MoriaGoblinDrum</defName>
+    <label>Goblin drum</label>
+    <description>A large wooden drum used as a music source for tribal rituals and parties.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>MoriaGoblin/MoriaGoblinDrum</texPath>
+      <drawSize>(1.4,1.4)</drawSize>
+      <drawRotated>False</drawRotated>
+      <shadowData>
+        <volume>(0.5, 1, 0.5)</volume>
+      </shadowData>
+    </graphicData>
+    <designationCategory>Ideology</designationCategory>
+    <fillPercent>0.35</fillPercent>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Mass>5</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Leathery</li>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <costList>
+      <WoodLog>50</WoodLog>
+    </costList>
+    <recipeMaker/>
+    <comps Inherit="False">
+      <li Class="CompProperties_ThrownFleckEmitter">
+        <fleck>Music</fleck>
+        <offsetMin>(-0.6,0,0.3)</offsetMin>
+        <offsetMax>(0.6,0,0.5)</offsetMax>
+        <emissionInterval>100</emissionInterval>
+        <scale>0.6~0.9</scale>
+        <rotationRate>-15~15</rotationRate>
+        <velocityX>0.3~0.7</velocityX>
+        <velocityY>0.7~1.0</velocityY>
+      </li>
+    </comps>
+    <placeWorkers Inherit="False">
+      <li>PlaceWorker_LinkToCampfire</li>
+    </placeWorkers>
+  </ThingDef>
+
+</Defs>

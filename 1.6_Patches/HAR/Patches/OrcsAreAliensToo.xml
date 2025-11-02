@@ -1,0 +1,53 @@
+<Patch>
+
+<Operation Class="PatchOperationSequence">
+  <operations>
+	<li Class="PatchOperationRemove">
+        <xpath>
+		Defs/ThingDef[defName="LotROG_GoblinMistyMountains"] |
+		Defs/ThingDef[defName="LotROG_GoblinMoria"] |
+		Defs/ThingDef[defName="LotROG_OrcGundabad"] |
+		Defs/ThingDef[defName="LotROG_OrcMordor"] |
+		Defs/ThingDef[defName="LotROG_UrukHai"]
+		</xpath>
+	</li>
+	<li Class="PatchOperationAdd">
+	  <xpath>Defs</xpath>
+		<value>
+		
+  <AlienRace.ThingDef_AlienRace ParentName="Human">
+    <defName>LotROG_GoblinMistyMountains</defName>
+    <label>misty mountain goblin</label>
+    <description>Misty Mountain Goblin description</description>
+  </AlienRace.ThingDef_AlienRace>
+
+  <AlienRace.ThingDef_AlienRace ParentName="Human">
+    <defName>LotROG_GoblinMoria</defName>
+    <label>moria goblin</label>
+    <description>Moria Goblin description</description>
+  </AlienRace.ThingDef_AlienRace>
+
+  <AlienRace.ThingDef_AlienRace ParentName="Human">
+    <defName>LotROG_OrcGundabad</defName>
+    <label>gundabad orc</label>
+    <description>gundabad Orc description</description>
+  </AlienRace.ThingDef_AlienRace>
+
+  <AlienRace.ThingDef_AlienRace ParentName="Human">
+    <defName>LotROG_OrcMordor</defName>
+    <label>mordor orc</label>
+    <description>Mordor Orc description</description>
+  </AlienRace.ThingDef_AlienRace>
+
+  <AlienRace.ThingDef_AlienRace ParentName="Human">
+    <defName>LotROG_UrukHai</defName>
+    <label>uruk hai</label>
+    <description>UrukHai description</description>
+  </AlienRace.ThingDef_AlienRace>
+
+	  </value>
+	</li>
+  </operations>
+</Operation>
+
+</Patch>
